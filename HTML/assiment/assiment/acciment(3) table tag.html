@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>acciment(3) table tag</title>
+</head>
+<body>
+  
+  <h3> nested tables</h3>3
+
+  <table border="1px" width="100%">
+
+        <tr>
+            <th>heder ncolumm 1 </th>
+            <th>heder ncolumm 2 </th> 
+            <th>heder ncolumm 3 </th>
+            <th>heder ncolumm 4 </th>
+        </tr>
+
+        <tr>
+           <td>Row 2-item 1 </td>
+           <td>Row 2-item 2 </td>
+           <th rowspan="2">Row 2: nested table 1
+               <p>
+           	   <table border="1px" width="100%">
+
+           	   	 <tr>
+           	   	 	 <th> Row 1 Heder </th>
+           	   	 	 <td> item </td>
+                 </tr>
+        
+                  <tr>
+           	   	 	 <th> Row 2 Heder </th>
+           	   	 	 <td> item </td>
+                 </tr>
+                 
+                  <tr>
+           	   	 	 <th> Row 3 Heder </th>
+           	   	 	 <td> item </td>
+                 </tr>
+
+               </table> </p> </th>
+
+               <td>Row 2-item 4 <br>
+               	   A second line</td>
+        </tr>
+
+
+        <tr>
+        	<th>Row 3: nested table 2
+        		<p>
+        			<table border="1px" width="100%">
+
+           	   	 <tr>
+           	   	 	 <th> Row 1 Heder </th>
+           	   	 	 <td> item </td>
+                 </tr>
+        
+                  <tr>
+           	   	 	 <th> Row 2 Heder </th>
+           	   	 	 <td> item </td>
+                 </tr>
+             </table></p></th>
+
+            <td> Row 3- item 2 </td> 
+            <td rowspan="2"> Row 3-item 3 </td>
+        </tr>
+
+        <tr> 
+            <td> Row 4-item 1</td>
+            <td> Row 4-item 2</td>
+            <td> Row 4-item 3</td>
+        </tr>
+
+        <tr>
+        	<td colspan="4"> Row 5- last row of outer table</td>
+        </tr>
+        </table>	
+
+            
+
+</body>
+</html>
